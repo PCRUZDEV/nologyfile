@@ -12,7 +12,7 @@
   text-decoration: none;
 }
 
-nav {
+.navigation {
   height: 10vh;
   background-color: #28527a;
   padding: 0 40px;
@@ -37,23 +37,23 @@ nav {
   color: #fafafa;
 }
 
-div {
+.intro {
   text-align: center;
 }
-div h1 {
+.intro .intro__heading {
   color: #28527a;
   font-size: 50px;
 }
-div h2 {
+.intro .intro__sub-heading {
   font-family: "Dancing-Script", cursive;
   font-size: 25px;
   margin: 20px 0;
 }
-div * {
+.intro .intro__button {
   margin: 0 auto;
 }
 
-header {
+.header {
   height: 90vh;
   display: flex;
   justify-content: center;
