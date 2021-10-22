@@ -40,21 +40,33 @@
 .intro {
   text-align: center;
 }
-.intro .intro__heading {
+.intro__heading {
   color: #28527a;
   font-size: 50px;
 }
-.intro .intro__sub-heading {
+.intro__sub-heading {
   font-family: "Dancing-Script", cursive;
   font-size: 25px;
   margin: 20px 0;
 }
-.intro .intro__button {
+.intro__button {
   margin: 0 auto;
 }
 
+.wave {
+  vertical-align: top;
+}
+
 .header {
-  height: 90vh;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  height: 50vh;
+  background-color: #28527a;
   display: flex;
   justify-content: center;
   align-items: center;

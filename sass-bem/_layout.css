@@ -7,7 +7,7 @@
 
 .main {
   height: 50vh;
-  background-color: $color-primary;
+  background-color: #28527a;
   display: flex;
   justify-content: center;
   align-items: center;
