@@ -45,3 +45,15 @@
 .wave {
   vertical-align: top;
 }
+
+.form {
+  background-color: $color-white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+
+  &__input {
+    margin-bottom: 20px;
+  }
+}

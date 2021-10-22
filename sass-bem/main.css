@@ -57,6 +57,17 @@
   vertical-align: top;
 }
 
+.form {
+  background-color: #fafafa;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.form__input {
+  margin-bottom: 20px;
+}
+
 .header {
   height: 70vh;
   display: flex;
