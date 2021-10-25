@@ -21,6 +21,20 @@
   padding: 10px 20px;
   border-radius: 10px;
   color: $color-white;
+  border: none;
+
+  &--form {
+    width: 100%;
+    background-color: $color-primary-light;
+  }
+
+  &--secondary {
+    background-color: unset;
+    border: 2px solid $color-primary;
+    color: $color-primary;
+    border-radius: 10px;
+    padding: 10px 20px;
+  }
 }
 
 .intro {
@@ -43,7 +57,9 @@
 }
 
 .wave {
-  vertical-align: top;
+  vertical-align: bottom;
+  fill-opacity: 1;
+  fill: $color-primary;
 }
 
 .form {
@@ -55,5 +71,28 @@
 
   &__input {
     margin-bottom: 20px;
+  }
+}
+
+.exit {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  &__heading {
+    font-family: $font-display;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+.footer {
+  background-color: $color-primary;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+
+  .copyright__text {
+    color: $color-white;
   }
 }

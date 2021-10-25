@@ -5,8 +5,15 @@
   align-items: center;
 }
 
-.main {
-  height: 50vh;
+.exit-container {
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  min-height: 50vh;
   background-color: $color-primary;
   display: flex;
   justify-content: center;

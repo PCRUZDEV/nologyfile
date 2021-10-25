@@ -35,6 +35,18 @@
   padding: 10px 20px;
   border-radius: 10px;
   color: #fafafa;
+  border: none;
+}
+.button--form {
+  width: 100%;
+  background-color: #55a5f0;
+}
+.button--secondary {
+  background-color: unset;
+  border: 2px solid #28527a;
+  color: #28527a;
+  border-radius: 10px;
+  padding: 10px 20px;
 }
 
 .intro {
@@ -54,7 +66,9 @@
 }
 
 .wave {
-  vertical-align: top;
+  vertical-align: bottom;
+  fill-opacity: 1;
+  fill: #28527a;
 }
 
 .form {
@@ -68,6 +82,27 @@
   margin-bottom: 20px;
 }
 
+.exit {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.exit__heading {
+  font-family: "Dancing-Script", cursive;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #28527a;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+.footer .copyright__text {
+  color: #fafafa;
+}
+
 .header {
   height: 70vh;
   display: flex;
@@ -75,8 +110,15 @@
   align-items: center;
 }
 
-.main {
-  height: 50vh;
+.exit-container {
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  min-height: 50vh;
   background-color: #28527a;
   display: flex;
   justify-content: center;
